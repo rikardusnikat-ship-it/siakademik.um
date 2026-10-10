@@ -1,0 +1,21 @@
+
+---
+
+## 🚀 Panduan Deploy Step-by-Step
+
+### **A. Deploy ke GitHub Pages**
+
+```bash
+# 1. Buat folder project
+mkdir portal-ujian-unm
+cd portal-ujian-unm
+
+# 2. Copy semua file (index.html, app.js, vercel.json, .gitignore, README.md)
+
+# 3. Init git & push
+git init
+git add .
+git commit -m "🎓 Portal Ujian UNM Multi-Device"
+git branch -M main
+git remote add origin https://github.com/USERNAME/portal-ujian-unm.git
+git push -u origin main
